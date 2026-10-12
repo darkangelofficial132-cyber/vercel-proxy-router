@@ -1,0 +1,12 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"framework": null,
+	"buildCommand": "mkdir -p public && touch public/.keep",
+	"outputDirectory": "public",
+	"rewrites": [
+		{
+			"source": "/:path*",
+			"destination": "https://9c33870a-340c-4c5d-870d-6da1a8d02b98-00-t4x3ev1p5wm4.riker.replit.dev/:path*"
+		}
+	]
+}
